@@ -7,30 +7,32 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
+    <div class="container">
+      <header>
       <h1>AI Polish Poem Generator</h1>
       <h3>Discover the beauty of Polish language</h3>
       <h5>Did you know that...?</h5>
       <ul><li>Polish is a Slavic language;</li>
         <li>The longest Polish word contains 54 letters - Dziewięćsetdziewięćdziesięciodziewięcionarodowościowego;</li>
         <li>Polish is the only Slavic language to have preserved ancient nasal vowels - Ą and Ę;</li>
-        <li>The earliest known Polish sentence to be recorded in writing appears in 1270: <em>Day, ut ia pobrusa, a ti poziwai</em> - it means roughly "Let me, I shall grind, and you take a rest";</li>
+        <li>The earliest known Polish sentence to be recorded in writing appears in 1270: 
+          <br /> <em>Day, ut ia pobrusa, a ti poziwai</em> - it means roughly "Let me, I shall grind, and you take a rest";</li>
         <li>Many English words of Polish origin are related to Polish cuisine.</li> 
       <ul>
     </header>
     <main>
       <form>
-        <input type="text" placeholder="Enter the topic of the Polish poem" autofocus required autocomplete="off" />
-        <input type="submit" value="Submit"/>
+        <input type="text" placeholder="Enter the topic of the Polish poem, e.g. poppy" autofocus required autocomplete="off" class="instructions"/>
+        <input type="submit" value="Submit" class="submit-button"/>
         <br />
-        <small>For example: mountain, poppy flower, city,...</small>
       </form>
-      <div id="polish-poem"></div>
+      <div id="polish-poem" class="poem"></div>
     </main>
     <footer>
-      Coded by Anna Oliwia Wierzbicka, open-source on
-      <a href="https://github.com/AnnaOW/ai-polish-poem-generator" target="_blank">Github</a>.
+      Coded by <strong>Anna Oliwia Wierzbicka</strong>, open-source on
+      <a href="https://github.com/AnnaOW/ai-polish-poem-generator" target="_blank">Github</a>. Background picture <a href="https://unsplash.com/photos/wheat-plants-7hRx0xpTEhs">source</a>.
     </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

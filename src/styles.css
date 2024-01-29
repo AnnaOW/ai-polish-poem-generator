@@ -1,1 +1,95 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/824/original/david-becker-7hRx0xpTEhs-unsplash.jpg?1706556292");
+  background-position: center center;
+  color: #5c4033;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+ul li {
+  margin-bottom: 5px;
+  list-style-type: upper-roman;
+  line-height: 1.5;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  display: flex;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  border: 1px solid #5c4033;
+  border-radius: 50px;
+  color: #5c4033;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 16px;
+  width: 80%;
+}
+
+.submit-button {
+  background-color: #5c4033;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 14px 24px;
+  width: 150px;
+}
+
+.submit-button:hover {
+  background-color: #fff;
+  color: #5c4033;
+  border: 1px solid #5c4033;
+  transition: all 200ms ease-in-out;
+}
+
+.poem {
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #fff;
+  border-left: 3px solid #5c4033;
+  padding: 20px;
+  line-height: 2;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer a {
+  color: #5c4033;
+}
+
+small {
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
