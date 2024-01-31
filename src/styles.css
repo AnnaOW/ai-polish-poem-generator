@@ -121,9 +121,13 @@ footer {
   text-align: center;
 }
 
-footer a,
-em {
+footer a {
   color: #808000;
+}
+
+footer .highlight {
+  color: #808000;
+  text-transform: uppercase;
 }
 
 small {
