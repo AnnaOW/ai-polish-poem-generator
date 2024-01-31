@@ -14,21 +14,24 @@
       <h1>AI Polish Poem Generator</h1>
       <h3>Discover the beauty of Polish language</h3>
       <h5>Did you know that...?</h5>
-      <ul><li>Polish is a Slavic language;</li>
-        <li>The longest Polish word contains 54 letters - Dziewięćsetdziewięćdziesięciodziewięcionarodowościowego;</li>
-        <li>Polish is the only Slavic language to have preserved ancient nasal vowels - Ą and Ę;</li>
-        <li>The earliest known Polish sentence to be recorded in writing appears in 1270: 
+      <ul><li>Polish is a <strong>Slavic</strong> language;</li>
+        <li>The longest Polish word contains <strong>54 letters</strong> - Dziewięćsetdziewięćdziesięciodziewięcionarodowościowego;</li>
+        <li>Polish is the only Slavic language to have preserved <strong>ancient nasal vowels</strong> - Ą and Ę;</li>
+        <li>The earliest known Polish sentence to be recorded in writing appears in <strong>1270</strong>: 
           <br /> <em>Day, ut ia pobrusa, a ti poziwai</em> - it means roughly "Let me, I shall grind, and you take a rest";</li>
-        <li>Many English words of Polish origin are related to Polish cuisine.</li> 
+        <li>Many <strong>English words of Polish origin</strong> are related to Polish cuisine.</li> 
       <ul>
     </header>
     <main>
+      <div class="form-wraper">
       <form id="poem-generator-form">
-        <input type="text" placeholder="Enter the topic of the Polish poem, e.g. poppy" autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
+        <input type="text" placeholder="Enter the topic of a Polish poem" autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
         <input type="submit" value="Submit" class="submit-button"/>
         <br />
       </form>
-      <div id="polish-poem" class="poem"></div>
+      <small class="hint">Example: poppy, Warsaw, key,...</small>
+    </div>
+      <div id="polish-poem" class="poem hidden"></div>
     </main>
     <footer>
       Coded by <strong>Anna Oliwia Wierzbicka</strong>, open-source on

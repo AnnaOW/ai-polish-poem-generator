@@ -31,13 +31,24 @@ ul li {
   line-height: 1.5;
 }
 
-form {
+.form-wraper {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  display: flex;
-  padding: 30px;
   margin-bottom: 30px;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+}
+
+.hint {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-top: 10px;
+  opacity: 0.8;
 }
 
 .instructions {
@@ -76,6 +87,27 @@ form {
   border-left: 3px solid #5c4033;
   padding: 20px;
   line-height: 2;
+}
+
+.blink {
+  animation: blink 2s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
