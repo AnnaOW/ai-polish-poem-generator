@@ -25,6 +25,10 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  color: #808000;
+}
+
 ul li {
   margin-bottom: 5px;
   list-style-type: upper-roman;
@@ -44,6 +48,7 @@ form {
 }
 
 .hint {
+  color: #808000;
   font-size: 13px;
   line-height: 1.5;
   margin-left: 10px;
@@ -73,8 +78,8 @@ form {
 }
 
 .submit-button:hover {
-  background-color: #fff;
-  color: #5c4033;
+  background-color: #808000;
+  color: #fff;
   border: 1px solid #5c4033;
   transition: all 200ms ease-in-out;
 }
@@ -116,8 +121,9 @@ footer {
   text-align: center;
 }
 
-footer a {
-  color: #5c4033;
+footer a,
+em {
+  color: #808000;
 }
 
 small {
